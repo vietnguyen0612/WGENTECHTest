@@ -119,6 +119,52 @@
     margin: 0 auto;
   }
   
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto;  /* center horizontally */
+    padding: 40px 20px;
+    justify-items: center; /* center items in each cell */
+    align-items: start;
+  }
+  
+  .grid__item {
+    background-color: #f9f9f9;
+    border-radius: 24px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .grid__item img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+  .grid__item--text {
+    background-color: #F4F0EA;
+    height: 100%;
+  }
+  .grid__item--text h3 {
+    margin-top: 0;
+    font-size: 20px;
+  }
+  
+  .grid__item--text p {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .grid__item--text ul {
+    padding-left: 20px;
+    text-align: left;
+  }
+  
+  .grid__item--text li {
+    margin-bottom: 6px;
+  }
+  
   
   .footer {
     background-color: #fff;
