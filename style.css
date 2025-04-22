@@ -253,5 +253,13 @@
       width: 177px;
       height: 298px;
     }
-
+    .hero__text {
+      font-size: 15px;
+    }
+    .hero__text h1{
+      width: 90vw;
+    }
+    .promo-banner {
+      display: none;
+    }
   }
