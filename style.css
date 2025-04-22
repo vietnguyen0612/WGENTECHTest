@@ -109,8 +109,8 @@
   }
   
   .section__img {
-    width: 300px;
-    height: 400px;
+    width: 385px;
+    height: 628px;
     object-fit: cover;
     border-radius: 8px;
   }
@@ -217,8 +217,41 @@
     font-size: 12px;
     color: #999;
   }
+
+
   @media (max-width: 768px) {
     .grid {
       grid-template-columns: 1fr;
+      padding: 20px 10px;
+      justify-items: center;
     }
+    .grid__item {
+      display: flex;
+      justify-content: center;
+    }
+    .grid__item img {
+      width: 359px;
+      height: 420px;
+    }
+    .grid__item--text {
+      width: 359px;
+    }
+    .grid__item--text h3 {
+      margin-top: 20px;
+      font-size: 32px;
+    }
+    .grid__item--second {
+      order: -1;
+    } 
+    .section {
+      padding: 20px 8px;
+    }
+    .section__row {
+      gap: 5px;
+    }
+    .section__img {
+      width: 177px;
+      height: 298px;
+    }
+
   }
